@@ -1,0 +1,120 @@
+@font-face{
+    src: url(Fuentes/AkayaKanadaka-Regular.ttf);
+    font-family: 'AkayaKanadaka-Regular';
+}
+
+h1{
+    text-align: center;
+    font-family: 'AkayaKanadaka-Regular';
+    color: white;
+}
+dl{
+    text-align: center;
+}
+a.titulo{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: red 3px  3px;
+}
+
+header{
+    background-color: orange;
+    height: 100px;
+}
+
+section.link{
+    background-color: yellow;
+    height: 50px;
+    border: red 1px solid;
+   
+}
+
+a.li{
+    background-color: coral;
+    border: red 1px solid;
+    color: white;
+   
+}
+
+a.li:hover{
+    background-color: red;
+}
+
+body{
+    background-color:rgb(235, 204, 101) ;
+}
+
+section.datos{
+    border-top: orange 15px dotted;
+    border-bottom: orange 15px dotted;;
+   
+}
+
+p.p1 {
+    left: auto;
+    right: auto;
+    border: red solid 2px;
+    color: red;
+    text-align: center;
+    background-color: orange;
+    position: relative;
+    height: 100px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  position: relative;
+  top: 0;
+  z-index: 2;
+}
+
+p.p1:hover{
+    z-index: 3;
+}
+
+div.p1{
+    text-align: center;
+}
+
+p.p2{
+    text-align: center;
+    color: orange;
+    border: greenyellow solid 2px;
+    background-color:rgb(244, 252, 130);
+    margin-right: auto;
+    margin-left: 350px;
+  height: 100px;
+  width: 340px;
+  position: relative;
+  top: -50px;
+ z-index: 1;
+}
+p.p2:hover{
+    z-index: 3;
+}
+
+p.p3{
+    text-align: center;
+    color: orange;
+    border: blue solid 2px;
+    background-color:lightblue;
+  height: 120px;
+  width: 370px;
+  position: relative;
+  margin-left: auto;
+  margin-right: 350px;
+  top: -150px;
+  z-index: 3;
+}
+
+hr{
+   background-color: orange;
+    height: 40px;
+
+}
+
+footer{
+    text-align: center;
+    color: red;
+}
+
+
